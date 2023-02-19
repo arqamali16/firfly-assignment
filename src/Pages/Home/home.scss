@@ -1,0 +1,31 @@
+@use "../../Styles/mixin.scss";
+
+$font: "Red Hat Display", sans-serif;
+$primary-color: #49cd5e !default;
+$secondary-color: #223cc7;
+$hover-color: #b5d9bb;
+$primary-natural-color: #eeeeee;
+$natural-color: #9c9c9c !default;
+$font-size: 13px;
+$font-weight: 400;
+$row-height: 3.5rem;
+
+.layout {
+  .layout-content {
+    padding: 4em 4em;
+    height: calc(100vh - 64px);
+    display: flex;
+    flex-direction: row;
+    gap: 3em;
+    background-color: #ffffff !important;
+
+    .ant-timeline {
+      flex: 1 0 20%;
+      padding: 1em 0;
+    }
+
+    .ant-collapse {
+      flex: 1 0 80%;
+    }
+  }
+}
