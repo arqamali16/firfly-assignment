@@ -29,7 +29,7 @@ const Home = () => {
       ...selectedItem,
       id: Math.random().toString(16).slice(2),
       code_block: commitedCode,
-      timestamp: moment().unix() * 1000,
+      timestamp: moment().unix(),
       message: commitMessage,
     };
 
