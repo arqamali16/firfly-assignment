@@ -1,3 +1,7 @@
+/**
+ * Home Component
+ * @author Mohammed Arqam Ali saad <arqam.ali16@gmail.com>
+ */
 import React, { useState } from "react";
 import { Card, Button, message, Modal, Input } from "antd";
 import _ from "lodash";
