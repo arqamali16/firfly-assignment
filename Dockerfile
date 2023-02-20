@@ -1,3 +1,5 @@
+
+
 FROM node:19 as react_build 
 #also say 
 WORKDIR /app
@@ -6,7 +8,7 @@ COPY . /app/
 
 # #prepare the contiainer for building react 
 RUN rm -rf node_modules
-RUN npm install --silent 
+RUN npm install --force --silent 
 RUN npm run build 
 
 #prepare nginx
