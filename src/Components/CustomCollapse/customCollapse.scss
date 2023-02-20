@@ -8,3 +8,28 @@
     font-weight: 400 !important;
   }
 }
+
+:where(.css-dev-only-do-not-override-diro6f).ant-card-small > .ant-card-body {
+  padding: 12px;
+  white-space: break-spaces;
+}
+
+.code-block {
+  white-space: break-spaces !important;
+}
+
+.extra-buttons {
+  display: flex;
+  flex-direction: row;
+  column-gap: 0.5em;
+}
+
+.avatar {
+  background-color: #fde3cf;
+  color: #f56a00;
+}
+
+.ant-card-head,
+.ant-card-body {
+  background-color: #f6f8fa !important;
+}
